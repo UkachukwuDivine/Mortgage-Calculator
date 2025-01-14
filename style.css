@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: cyan;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+main{
+    background-color: white;
+    width: 1200px;
+    display: flex;
+    border-radius: 30px;
+    overflow: hidden;
+
+}
+
+main > section{
+    width: 50%;
+    min-height: 100%;
+}
+
+.data{
+    background-color: hsl(202, 55%, 16%);
+    padding: 40px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 100px;
+    border-bottom-left-radius: 70px;
+}
+
+.data h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.form{
+    padding: 30px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.clear{
+    text-decoration: underline;
+    font-size: 10px;
+    color: grey;
+    margin-left: 10px;
+}
+/* 
+h1{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+} */
+
+.form_control{
+    border: 1px solid black;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    margin-top: 6px;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 12px;
+}
+
+span{
+    background-color: hsl(202, 86%, 94%);
+    padding-left: 8px 14px;
+    font-size: 18px;
+}
+
+.two{
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.radio_control{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 15px;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+input[type=radio]{
+    width: auto;
+}
+
+.form button{
+    padding: 14px;
+    background-color: hsl(61, 70%, 52%);
+    border-radius: 30px;
+    margin-top: 40px;
+    cursor: pointer;
+    padding: 14px 30px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* 
+.input-box{
+    border: 1px solid #434343;
+    margin-top: 10px;
+}
+
+.input-box:focus-within{
+    border-color: black;
+}
+
+.form-section{
+    padding-top: 10px;
+    padding-bottom: 10px;
+} */
+
+ 
